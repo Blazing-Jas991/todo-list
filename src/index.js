@@ -1,9 +1,9 @@
 import "./styles.css";
 import { greeting } from "./template.js";
 
- if (process.env.NODE_ENV !== 'production') {
-   console.log('Looks like we are in development mode!');
- }
+if (process.env.NODE_ENV !== 'production') {
+    console.log('Looks like we are in development mode!');
+}
 
 const button = document.querySelector('.butt');
 button.addEventListener('click', () => {
